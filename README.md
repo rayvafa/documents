@@ -10,6 +10,9 @@
 * We use CircleCI for build process ( running lints and test units )
 * All lint issues should be resolved before code review
 
+## CSS
+At the moment we use BEM for css: https://css-tricks.com/bem-101/
+
 ## Github
 * We use Github as version control
 * we use Gitflow as a principle: http://nvie.com/posts/a-successful-git-branching-model/
@@ -62,3 +65,7 @@ CI should catch these once you submit the PR, but it's good to catch them early.
 
 Why?
 Circle will run `yarn test` and `yarn lint` for your repo every time you push to GitHub and the results will be shown in the GitHub UI. It will help us maintain code quality and restrict us merging branches that fail tests.
+
+## Invoice
+
+After job is done you need to issue an invoice. if using Freelancer.com.au, you can do that easily by following this article: https://www.freelancer.com.au/community/articles/how-to-create-an-invoice
